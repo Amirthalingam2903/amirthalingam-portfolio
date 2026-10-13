@@ -295,7 +295,7 @@ main {
 .hero-text {
   color: var(--text-dim);
   font-size: clamp(1rem, 1.4vw, 1.15rem);
-  max-width: 50ch;
+  /* max-width: 50ch; */
   margin-bottom: 2.5rem;
 }
 
@@ -1008,7 +1008,7 @@ main {
 }
 
 .project-highlights li::before {
-  content: 'âœ¦';
+  content: '✦';
   position: absolute;
   left: 0;
   color: var(--green);
