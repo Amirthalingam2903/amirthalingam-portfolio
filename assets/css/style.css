@@ -1008,7 +1008,7 @@ main {
 }
 
 .project-highlights li::before {
-  content: '✦';
+  content: '◈';
   position: absolute;
   left: 0;
   color: var(--green);
